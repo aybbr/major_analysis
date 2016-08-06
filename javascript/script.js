@@ -1,1 +1,7 @@
-var data=[]
+var data = [
+    {
+        Album : "",
+        Track : "",
+        Artists : ""
+    },
+];
