@@ -5,7 +5,7 @@ library(stringr)
 
 # read in the data set
 getwd()
-setwd("E:/data_viz/major_vis")
+setwd("E:/data_viz/major_vis/data_files/")
 if (file.exists("lyrics.csv")) {
     scripts <- read.csv("lyrics.csv",header = TRUE, sep = ";", stringsAsFactors = FALSE)
 } else {
@@ -42,7 +42,7 @@ corpus <- Corpus(DataframeSource(by.singer), readerControl = list(reader = myRea
 # pre-process text
 
 swe <- stopwords("english")
-rapstopwords <- c("gon", "got", "thats", "cant", "dont", "yeah", "just", "get")
+rapstopwords <- c("gon", "got", "thats", "cant", "dont", "yeah", "just", "get", "gotta")
 
 
 i = 1
@@ -64,9 +64,9 @@ allTokenizer <- function(x) NGramTokenizer(x, Weka_control(min = 1, max = 3))
 all.tdm <- TermDocumentMatrix(corpus, control = list(tokenize = allTokenizer))
 
 # remove sparse terms
-all.tdm.75 <- removeSparseTerms(all.tdm, 0.75) # 535 of 9669
+all.tdm.94 <- removeSparseTerms(all.tdm, 0.94) # 1514 of 9687
 
 # save as a simple data frame
-count.all <- data.frame(inspect(all.tdm.75))
+count.all <- data.frame(inspect(all.tdm.94))
 count.all$word <- row.names(count.all)
 write.csv(count.all, "major_key_tdm_all.csv", row.names = FALSE)
