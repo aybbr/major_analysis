@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+	<head>
+	    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	    <title>Major 🔑 visualization </title>
+	    <meta name="keywords" content="data, visualization, visualisation, data visualization, data visualisation, information, information visualization, information visualisation, dataviz, datavis, infoviz, infovis, collaboration, data art, major, key, dj khaled, future, rap, jay-z, drake, big sean, another, one">
+		
+		<!-- Google fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+		
+		
+		<!-- Styling -->
+		<link href="style/style.css" rel="stylesheet">
+		
+		<!-- D3 v4 -->
+		<script src="https://d3js.org/d3.v4.min.js"></script>
+		
+		<!-- Custom "chord" and "ribbon" functions -->
+		<script src="js/loom.js"></script>
+		<script src="js/string.js"></script>
+		
+	</head>
+	<body>
+		
+		<div class="lyrics-content-wrapper">
+			<h1 id="lyrics-title">Future sings the most in <span class="MajorKey">Major</span><span class="key">🔑</span></h1>
+			<h4 id="lyrics-subtitle">How many words have the long list of featured artists in DJ Khaled's new album sung across the forteen tracks in Major Key album?</h4>
+<center>
+			<img src="http://media1.giphy.com/media/3o6gEgFYNtKlQeEee4/giphy.gif" alt="future_dj_khaled" height="135" width="181">
+</center>
+<br>
+			<div id="lyrics-intro">
+				DJ Khaled has recently dropped his ninth studio album featuring 34 of the rap game biggest names. From from Jay Z, Nas, J. Cole, Drake, Kendrick Lamar, Big Sean, 2 Chainz, Nicki Minaj, Rick Ross, Chris Brown, August Alsina, Jeremih, Future, Betty Wright, Bryson Tiller, Kodak Black, Jeezy, French Montana, Yo Gotti, YG, Gucci Mane, Jadakiss, Fabolous, Busta Rhymes, Fat Joe,Kent Jones, Wale, Wiz Khalifa, Lil Wayne, Mavado to the american Pop singer, Meghan Trainor. This particular album has yield unprecedented success. Khaled's voiced presence is only limited to those motivational "special talks" and most of his tracks are what they are thanks to his guests.
+				I made an analysis that reviews every singer lyrics to determine which words and phrases are distinct for each rapper that you can find here.
+				I did this visualization below to illustrate the total words sung per singer and per track.
+				</div>
+			<div id="lyrics-note">Hover over the singer's name or song title to get a more detailed overview</div>
+		</div>
+			<div id="lyrics-chart"></div>
+			
+		<div class="lyrics-content-wrapper">
+			<div id="lyrics-footer">
+				<div id="lyrics-sources">Based on <a href="http://genius.com/Dj-khaled-major-key-tracklist-album-art-lyrics">Rap Genius lyrics data</a>, scrapped and analyzed in this <a href="https://github.com/volco/major_analysis">R text mining project</a> that shows the number of words per rapper per song. Words are counted after getting rid of english stopwords, as well as
+				the rap version of these words.</div>
+			</div>
+		</div>
+		
+		<script src="js/script.js"></script>
+		
+	</body>
+</html>
