@@ -10,3 +10,7 @@ Album Tracklist and singers were scrapped from <a href="http://genius.com/albums
 
 # Methods and statistical approach
 I used the stringr package to condense each rapper lyrics into one large unformatted string. Afterward, I used the tm package to pre-process the text (to lowercase, remove punctuation, numbers and white space, remove english stop words as well as the rap version of these stop words) which resulted in a lyrics corpus.
+
+
+# Chord diagram
+interactive visualization <a href="http://ayoub.rocks/major_vis.html">here</a>.
