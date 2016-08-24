@@ -1,0 +1,140 @@
+html { font-size: 62.5%; } 
+
+body {
+  font-family: 'Raleway';
+  font-size: 1.2rem;
+  fill: #b9b9b9;
+}
+
+.lyrics-content-wrapper {
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+#lyrics-title {
+	font-family: 'Raleway';
+	font-size: 38px;
+	font-style: normal;
+	font-variant: small-caps;
+	font-weight: 100;
+	line-height: 40.8px;
+	margin: 40px 30px 0px 30px;
+	color: #272727;
+}
+
+#lyrics-subtitle {
+	font-size: 14px;
+	color: #b1b1b1;
+	margin: 0px 30px 20px 30px;
+	font-weight: 300;
+}
+
+#lyrics-intro {
+	font-family: Raleway;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+	margin: 0px 30px 10px 30px;
+	max-width: 800px;
+}
+
+#lyrics-note {
+	font-size: 14px;
+	margin: 0px 30px 10px 30px;
+	max-width: 800px;
+	color: #b1b1b1;
+	font-weight: 300;
+}
+
+#lyrics-chart {
+	text-align: center;
+}
+
+#lyrics-credit {
+	font-size: 14px;
+	margin: 10px 30px 5px 30px;
+}
+
+#lyrics-sources {
+	font-family: 'Raleway';
+	font-size: 11px;
+	max-width: 300px;
+	margin: 15px 30px 5px 30px;
+	color: #9e9e9e;
+	font-weight: 300;
+	padding-bottom: 20px;
+}
+
+a:hover {
+  	text-decoration: none;
+  	border-bottom: 1px solid black;
+}
+
+a, a:link, a:visited, a:active {
+	text-decoration: none;
+  	color: black;
+  	border-bottom: 1px dotted rgba(0, 0, 0, .5);
+}
+
+.MajorKey {
+	font-family: 'Raleway', cursive;
+	color: #2B2B2B;
+	font-style: italic;
+}
+.key {
+	font-family: 'Raleway', cursive;
+	color: #FFD700;
+	font-style: italic;
+	
+}
+
+/*--- chart ---*/
+
+.name-title {
+	font-family: 'Raleway', cursive;
+	font-size: 2.8rem;
+	fill: #232323;
+	cursor: default;
+	text-anchor: middle;
+}
+
+.value-title {
+	text-anchor: middle;
+	font-size: 3rem;
+  fill: #5f5f5f;
+	  font-family: 'Raleway';
+}
+
+.character-note {
+	text-anchor: middle;
+	font-size: 1.4rem;
+  	fill: #232323;
+/*	font-weight: 300;*/
+}
+			
+.inner-label {
+	font-family: 'Raleway', cursive;
+    font-style : 'Regular';
+	font-size: 1.4rem;
+	fill: #232323;
+	cursor: default;
+   /* font-size: 10px;*/
+}
+
+.outer-label {
+	font-family: 'Raleway';
+	font-size: 1.6rem;
+	fill: #5f5f5f;
+	cursor: default;
+    font-size: 15px;
+}
+
+.outer-label-value {
+	font-family: 'Raleway';
+  	font-size: 1.3rem;
+  	fill: #B3B3B3;
+}
+
+
